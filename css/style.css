@@ -7,10 +7,6 @@
 
 /*navigation*/
 
-.name, {
-  margin: 0;
-}
-
 .name a, .main-nav a {
   text-align: center;
   display: block;
@@ -139,10 +135,9 @@ display: inline-block;
 
 @media (min-width: 320px) {
 
-.name, {
-  margin: 0 auto;
-  padding-top: 50px;
-}
+.profile-image {
+    max-width: 100%;
+  }
 
 .main-nav ul li {
 display: block;
@@ -158,9 +153,20 @@ align-content:center;
   display: none;
 }
 
+.main-footer h2 {
+  color: #fff;
+  float: left;
+  line-height: 11px;
+  font-size: 18px;
 }
 
-@media (min-width: 769px) {
+#truce {
+  text-align: right;
+}
+
+}
+
+@media (min-width: 768px) {
 
 .container {
   width: 90%;
@@ -174,14 +180,15 @@ float: left;
 .primary, .secondary {
   width: 50%;
 }
-/* this gives frst 2 columns the side by side view at 769px. tertiary remains under them */
+/* this gives frst 2 columns the side by side view at 768px. tertiary remains under them */
 
-.main-nav {
-float: right;
+.name {
+  display: block;
+  width: 100%;
 }
-
-.main-nav ul li a {
+.main-nav li {
   display: inline-block;
+  width: auto;
   margin-left: 15px;
 }
 
@@ -204,7 +211,7 @@ float: right;
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 1024px) {
 
 .container {
   width: 80%;
@@ -223,6 +230,19 @@ float: right;
 }
 
 /* this gives frst 2 columns the side by side view at 769px. tertiary remains under them */
+
+
+.main-header .container h1,
+.main-header .container a {
+  float: left;
+  text-align: left;
+  height: 12px;
+  line-height: 12px;
+}
+
+.main-header .container ul {
+  text-align: right;
+
 
   .version-two {
   display: none;
