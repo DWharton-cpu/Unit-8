@@ -136,28 +136,23 @@ display: inline-block;
 @media (min-width: 320px) {
 
 .profile-image {
-    max-width: 100%;
-  }
-
-.main-nav ul li {
-display: block;
-align-content:center;
-
+  max-width: 100%;
 }
 
-  .version-two {
-  display: none;
-}
-
-.double-edged-two {
-  display: none;
-}
 
 .main-footer h2 {
   color: #fff;
   float: left;
   line-height: 11px;
   font-size: 18px;
+}
+
+.double-edged-two {
+  display: none;
+}
+
+  .version-two {
+  display: none;
 }
 
 #truce {
@@ -167,6 +162,10 @@ align-content:center;
 }
 
 @media (min-width: 768px) {
+
+  .version-two {
+  display: none;
+}
 
 .container {
   width: 90%;
@@ -180,7 +179,7 @@ float: left;
 .primary, .secondary {
   width: 50%;
 }
-/* this gives frst 2 columns the side by side view at 768px. tertiary remains under them */
+/* this gives frst 2 columns the side by side view at 769px. tertiary remains under them */
 
 .name {
   display: block;
@@ -200,9 +199,11 @@ float: left;
   float: right;
 }
 
-  .version-two {
+.version-two {
   display: none;
 }
+
+
 
 /*header that allows the text and image to float neatly instead of a big gap between at larger size */
 .double-edged-two {
@@ -221,6 +222,7 @@ float: left;
   width: 33%;
 }
 
+/*
 .prim-reaper {
   width: 50%;
 }
@@ -228,9 +230,13 @@ float: left;
 .sec-treasure {
   width: 50%;
 }
+*/
 
 /* this gives frst 2 columns the side by side view at 769px. tertiary remains under them */
 
+  .version-two {
+  display: none;
+}
 
 .main-header .container h1,
 .main-header .container a {
@@ -242,12 +248,16 @@ float: left;
 
 .main-header .container ul {
   text-align: right;
-
-
-  .version-two {
-  display: none;
 }
 
+
+.first {
+width: 60%; 
+}
+
+.second {
+width: 40%;
+}
 }
 
 /* ======= FLOAT CLEARFIX =======*/
