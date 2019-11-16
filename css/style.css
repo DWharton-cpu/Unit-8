@@ -26,6 +26,27 @@
   padding-bottom: 10px;
 }
 
+/*footer navigation since its required*/
+
+.slain-nav a {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+  color: #FFF;
+}
+
+.slain-nav li a {
+  text-transform: uppercase;
+  font-family: Montserrat, sans-serif;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.slain-nav {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
 /*header*/
 
 profile-image {
@@ -48,12 +69,11 @@ h1 a {
 p {
 font-family: Montserrat, sans-serif;
 padding-bottom: 10px;
+  align-content: center;
+  text-align: center;
   
 }
 
-.double-edged-two {
-  
-}
  
 /* ======== BODY CONTENT STYLES ======== */
 
@@ -93,6 +113,15 @@ padding-bottom: .5em;
   text-align: center;
 }
 
+.banner {
+	color: #fff;
+	background: #3acec2;
+  padding: 3.2em 0;
+  margin-bottom: 60px;
+  text-align: center;
+  align-content: center;
+}
+
 .col {
   padding-right: 1em;
   padding-left: 1em;
@@ -110,7 +139,26 @@ padding-bottom: .5em;
   
 }
 
+.slammer {
+	color: #fff;
+	background: #3acec2;
+  padding: 3.2em 0;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.slammer {
+	color: #fff;
+	background: #3acec2;
+  padding: 3.2em 0;
+  margin-bottom: 60px;
+  text-align: center;
+  align-content: center;
+}
+
+
 /* ======= FOOTER STYLES ======== */
+
 
 .main-footer {
   text-align: center;
@@ -139,7 +187,6 @@ display: inline-block;
   max-width: 100%;
 }
 
-
 .main-footer h2 {
   color: #fff;
   float: left;
@@ -159,7 +206,14 @@ display: inline-block;
   text-align: right;
 }
 
+#truceone {
+  display: none;
 }
+
+.slammer p {
+  padding: 20px;
+}
+
 
 @media (min-width: 768px) {
 
@@ -210,6 +264,14 @@ float: left;
   display: none;
 }
 
+#truce {
+  display: none;
+}
+
+#truceone {
+  display: inline-block;
+  float: right;
+}
 }
 
 @media (min-width: 1024px) {
@@ -242,8 +304,20 @@ float: left;
 .main-header .container a {
   float: left;
   text-align: left;
-  height: 12px;
-  line-height: 12px;
+  height:45px;
+  
+}
+
+.name {
+  width: unset;
+}
+
+.main-header .container h1 {
+  line-height: 0;
+}
+
+.main-header .container .main-nav a {
+  line-height: 45px
 }
 
 .main-header .container ul {
@@ -258,6 +332,15 @@ width: 60%;
 .second {
 width: 40%;
 }
+
+#truce {
+  display: none;
+}
+
+#truceone {
+  display: inline-block;
+  float: right;
+}
 }
 
 /* ======= FLOAT CLEARFIX =======*/
@@ -269,3 +352,4 @@ width: 40%;
 		display: table;
 		clear: both;
 	}
+
